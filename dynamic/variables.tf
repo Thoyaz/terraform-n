@@ -2,7 +2,6 @@ variable "server-names" {
   type = map(any)
   default = {
     mongodb = "t3.micro"
-    mysql   = "t2.micro"
   }
 }
 
